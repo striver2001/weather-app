@@ -1,0 +1,166 @@
+@media(max-width:515px){
+  html{font-size: 5%;
+  }
+}
+
+ @media(max-width:500px)
+{
+  html{
+    font-size: 45%;
+  }
+} 
+
+
+html{
+  font-size: 62.5%;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+ 
+}
+
+body{
+  /* background: #99454572; */
+  background-image: url("images/bg1.jpg");
+  overflow: hidden;  /*to avoid extra scroll barr*/
+  /* background-size:cover; */
+  /* background-repeat: no-repeat; */
+  
+
+}
+
+.card{
+  width: 90%;
+  max-width: 60rem;
+  
+
+  background: linear-gradient(135deg,#2c252a,#525f91d5);
+  color: #fff;
+  margin: 10rem auto 0;
+  border-radius: 2rem;
+  padding: 4rem 4rem;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 2.5rem;
+  /* margin-bottom: 50rem; */
+  
+}
+
+
+.card h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  /* margin-top: .rem; */
+
+}
+
+.temp{
+  font-size: 1rem;
+}
+.search{
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .1rem -1.3rem;
+
+}
+
+.search input{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 1rem 2.5rem;
+  height: 6rem;
+  border-radius: 3rem;
+  flex: 1;
+  margin-right: 1.6rem;
+  font-size: 1.8rem;
+  
+}
+
+.search button{
+  border: 0;
+outline: 0;
+background: #ebfffc;
+border-radius: 50%;
+width: 6rem;
+height: 6rem;
+cursor: pointer;
+padding: 1rem 1rem;
+}
+
+.search button img{
+  width: 1.6rem;
+
+}
+
+.weather{
+  margin-top: -2.8rem;
+}
+
+.weather-icon{
+  width: 12rem;
+  margin-top: 3rem;
+  margin-bottom: .1rem;
+}
+.weather h1{
+  font-size: 3rem;
+  font-weight: 5rem;
+}
+.weather  h2{
+  font-weight: 8rem;
+  font-size: 2rem;
+  margin-bottom: -3rem;
+}
+
+.details{
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 0 2rem;
+margin-top: 1rem;
+}
+
+.col{
+  /* display: flex; */
+  align-items: center;
+  text-align: left;
+  padding: 3rem 14rem; 
+  margin-bottom:.1rem;
+
+}
+
+.col img{
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.humidity, .wind{
+  font-size: 2.8rem;
+  margin-top: -.6rem;
+}
+
+.weather{
+  display: none;
+}
+
+
+.error{
+
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  display: none;
+}
